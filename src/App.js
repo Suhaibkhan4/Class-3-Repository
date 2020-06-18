@@ -1,24 +1,16 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
-
+import Friends from './Friends';
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div classname='App'>
+    <h1>Name of Faisal's Friends are</h1>
+    <Friends friend1='Suhaib' friend2='Omer'/>
+    <h1>
+      _____________________
+    </h1>
+    <h1>Name of Abdullah's Friends are</h1>
+    <Friends friend1='Uncle Hanif' friend2='Arabian Guy'/>
     </div>
   );
 }
