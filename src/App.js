@@ -4,8 +4,8 @@ import Friends from './Friends';
 function App() {
   return (
     <div classname='App'>
-    <h1>Name of Faisal's Friends are</h1>
-    <Friends friend1='Suhaib' friend2='Omer'/>
+    <h1>Name of Ahmad's Friends are</h1>
+    <Friends friend1='Faisal' friend2='Nauman'/>
     <h1>
       _____________________
     </h1>
